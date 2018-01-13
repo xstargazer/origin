@@ -1,0 +1,36 @@
+What happens when you initialize a repository? Why do you need to do it?
+初始化版本库时会发生什么情况？为什么你需要这样做？
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+暂存区与工作目录和版本库有何不同？你认为它具有什么价值？
+它是一个桥梁
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+如何使用暂存区确保为每项逻辑更改进行一次提交？
+更改文件，保存退出编辑器，git add 文件名，git commit 
+
+check out 指的是使当前文件处于某个commit版本中，如果没有使用check out命令，则默认处于最新的提交版本中
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+在哪些情况下，分支可以帮助你有序地组织历史记录？分支将如何提供帮助？
+需要进行一些实验或者创建一个展示版本的时候
+分支可以使我们不影响主干，大胆尝试
+
+
+
+How do the diagrams help you visualize the branch structure?
+图表如何帮助你直观显示分支结构？
+
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+将两个分支合并到一起有何结果？为什么我们在图表中表示它的方式是那样的？
+P1（A、B、C）为两个分支的源头,P2(B、C、D)、P3(A、B、C、E)为两个分支，那么合并之后为（B、C、D、E）（合并逻辑:如果源头包含，而其中任意一个分支删除了，那么删除该行代码。如果源头不包含，而其中任意一个分支增添了代码，那么在合并提交中增添该行代码）
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+Git 的自动合并与始终手动进行合并各有何优缺点？
+手动合并更加不容易出错
+自动合并更加方便
