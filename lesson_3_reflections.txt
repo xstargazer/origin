@@ -11,8 +11,10 @@ automatically stay up-to-date with your remote repository?
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
-
-    Fill in your answer here
+说明Fork、克隆和分支之间的不同。何时使用某种功能而不是另一种？
+Fork: 面向GitHub上的仓库复制
+克隆:面向GitHub上的仓库复制到本地，或者仓库从本地的一个地方到另一个地方
+分支:面向分支
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
