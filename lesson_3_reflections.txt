@@ -18,8 +18,8 @@ Fork: 面向GitHub上的仓库复制
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
-
-    Fill in your answer here
+拥有远程分支的上次已知状态的副本（存储在本地）有何好处？
+在与他人协作的时候就可以知道他人的仓库与自己的仓库的区别在哪，方便解决冲突
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
